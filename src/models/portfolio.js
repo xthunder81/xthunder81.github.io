@@ -1,0 +1,102 @@
+// Daftar rute dan label yang dipakai oleh menu navigasi.
+export const navigation = [
+  { id: 'utama', label: 'Utama', number: '01' },
+  { id: 'profil', label: 'Profil', number: '02' },
+  { id: 'proyek', label: 'Proyek', number: '03' },
+  { id: 'kontak', label: 'Kontak', number: '04' },
+]
+
+// Konten proyek yang dirender sebagai kartu pada halaman Proyek.
+export const projects = [
+  {
+    number: '01',
+    name: 'Notes API',
+    type: 'BACK-END · JAVASCRIPT',
+    description: 'Layanan API untuk mengelola catatan, disertai koleksi pengujian Postman.',
+    image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Buku catatan dan pena di atas meja',
+    color: 'coral',
+    url: 'https://github.com/xthunder81/notes-app-back-end',
+  },
+  {
+    number: '02',
+    name: 'Crita Rakyat',
+    type: 'GAME · UNITY',
+    description: 'Permainan yang mengangkat cerita rakyat Indonesia dalam format interaktif.',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Pemandangan alam berkabut dengan suasana cerita rakyat',
+    color: 'mint',
+    url: 'https://github.com/xthunder81/CritaRakyat',
+  },
+  {
+    number: '03',
+    name: 'Absensi Eskul',
+    type: 'WEB APP · LARAVEL',
+    description: 'Aplikasi web untuk pencatatan dan pengelolaan kehadiran kegiatan ekstrakurikuler.',
+    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Catatan dan dokumen di atas meja kerja',
+    color: 'yellow',
+    url: 'https://github.com/xthunder81/absenEskul',
+  },
+  {
+    number: '04',
+    name: 'PPDB Laravel',
+    type: 'WEB APP · LARAVEL',
+    description: 'Aplikasi penerimaan peserta didik baru berbasis web.',
+    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Ruang kelas dengan meja belajar',
+    color: 'coral',
+    url: 'https://github.com/xthunder81/tugaskpLaravel',
+  },
+  {
+    number: '05',
+    name: 'Bengkel Hape',
+    type: 'WEB APP · MANAJEMEN',
+    description: 'Aplikasi manajemen proyek untuk layanan bengkel dan transaksi.',
+    image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Peralatan dan komponen di ruang perbaikan',
+    color: 'mint',
+    url: 'https://github.com/xthunder81/bengkelhape.com',
+  },
+  {
+    number: '06',
+    name: 'East Java Local Fish',
+    type: 'GAME · UNITY',
+    description: 'Proyek game Unity bertema ikan lokal dari Jawa Timur.',
+    image: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Permukaan laut dengan ombak biru',
+    color: 'yellow',
+    url: 'https://github.com/xthunder81/East_Java_Local_Fish',
+  },
+  {
+    number: '07',
+    name: 'Kasir UTS',
+    type: 'APLIKASI DESKTOP · JAVA',
+    description: 'Aplikasi kasir berbasis Java untuk mengelola transaksi penjualan.',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Pembayaran menggunakan kartu pada terminal kasir',
+    color: 'coral',
+    url: 'https://github.com/xthunder81/kasir_uts',
+  },
+  {
+    number: '08',
+    name: 'Computer Science',
+    type: 'KUMPULAN KODE · MULTI-BAHASA',
+    description: 'Kumpulan implementasi konsep ilmu komputer dan algoritma.',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1100&q=85',
+    imageAlt: 'Papan sirkuit dan komponen elektronik',
+    color: 'mint',
+    url: 'https://github.com/xthunder81/computer-science',
+  },
+]
+
+// Informasi profil yang digunakan bersama oleh beberapa halaman.
+export const profile = {
+  name: 'Moch Andria Reza E P',
+  role: 'WEB DEVELOPER & CREATIVE MAKER',
+  email: 'andriareza21@gmail.com',
+  location: 'Indonesia · UTC+7',
+  // image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1100&q=90',
+  image: '/images/me.jpg',
+  imageAlt: 'Potret kreator dengan ekspresi santai',
+}

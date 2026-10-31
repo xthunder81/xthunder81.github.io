@@ -1,4 +1,4 @@
-# XThunder Portfolio
+# Web Portfolio
 
 Portofolio pribadi bertema classic retro, dibangun dengan React, Vite, dan Tailwind CSS. Navigasi halaman menggunakan URL hash sehingga setiap halaman dapat dibuka langsung, misalnya `#/profil` atau `#/proyek`.
 
